@@ -49,7 +49,8 @@ p::first-line {
 .image {
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 300px;
+    background-image: url("../img/background-img.jpg");
 }
 
 .caption {
@@ -63,5 +64,13 @@ p::first-line {
     top: 80%;
     width: 60%;
     opacity: 0.75;
+    font-style: italic;
+    background-color: #fff;
+    color: black;
+}
+
+.caption a:hover {
+    text-decoration: none;
+    color: purple;
 }
 
